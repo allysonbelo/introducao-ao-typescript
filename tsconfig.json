@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
-        "outDir": "app/dist/js",    //Pasta de saída onde será gerado os arquivos de código transpilados
-        "target": "ES6",            //Versão do ECMAScript
-        "noEmitOnError": true,      //Não irá gerar arquivos de código JS caso ocorra algum erro
-        "noImplicitAny": true,      //Não atribui o tipo como ANY implicitamente, sendo obrigado a atribuir o seu tipo
-        "removeComments": true,     //Remove comentários do código
-        "strictNullChecks": true    //Não permite retorno null a não ser que o desenvolvedor tenha explicitado
+        "outDir": "app/dist/js",        //Pasta de saída onde será gerado os arquivos de código transpilados
+        "target": "ES6",                //Versão do ECMAScript
+        "noEmitOnError": true,          //Não irá gerar arquivos de código JS caso ocorra algum erro
+        "noImplicitAny": true,          //Não atribui o tipo como ANY implicitamente, sendo obrigado a atribuir o seu tipo
+        "removeComments": true,         //Remove comentários do código
+        "strictNullChecks": true,       //Não permite retorno null a não ser que o desenvolvedor tenha explicitado
+        "experimentalDecorators": true  //Permite usar decorators
     },
-    "include": ["app/src/**/*"]     //Pasta onde estão os arquivos de código a serem transpilados
+    "include": ["app/src/**/*"]         //Pasta onde estão os arquivos de código a serem transpilados
 }
